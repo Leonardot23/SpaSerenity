@@ -26,10 +26,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex: content;
-
+    
+    position: fixed;
+    width:100% ;
+    z-index: 1;
     
 }
+
 
 .nav-link {
     font-weight: bold;
