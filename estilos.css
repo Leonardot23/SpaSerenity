@@ -1,0 +1,239 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #fff1f6;
+    font-family: 'Arial', sans-serif;
+    padding-bottom: 10px;
+    
+}
+
+/*NavBar*/
+.navbar-nav {
+    margin: 0 auto; 
+    display: flex; 
+    justify-content: center; 
+}
+
+.nav-item {
+    margin: 0 10px; 
+}
+
+.navbar {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: content;
+
+    
+}
+
+.nav-link {
+    font-weight: bold;
+}
+
+#serenity{
+    color: #1e1c5d;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+
+#bien{
+    display: flex; 
+    align-items: center; 
+}
+/*Inicio*/
+.imagen-texto {
+    
+    width: 550px;
+    transform: translateX(-70px);
+}
+
+
+.bg-white {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    min-height: 80vh;
+}
+
+/*PRoductos*/
+
+#Productoid{
+    background: linear-gradient(135deg, #fff1f6, #fcdcf5, #e7d4ef);
+    color: #1e1c5d;
+    padding: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.card {
+    border: none; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    border-radius: 20px; 
+    transition: transform 0.3s ease; 
+}
+
+.card:hover {
+    transform: scale(1.15); 
+}
+
+.card img {
+    border-radius: 20px;
+    max-width: 200px;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%; 
+}
+
+.btn {
+    margin-top: auto; 
+}
+
+/*Lo mas pedido*/
+.container1 {
+    
+    
+    border: 1px solid #f78da7; 
+    padding: 20px; 
+    border-radius: 15px; 
+    background-color: #ffffff; 
+    
+}
+tratamiento-card {
+    border: none; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    border-radius: 20px; 
+    transition: transform 0.3s ease; 
+}
+
+.tratamiento-card:hover {
+    transform: scale(1.05); 
+}
+
+.tratamiento-card img {
+    border-radius: 20px;
+    max-width: 200px; 
+}
+
+.tratamiento-card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%; 
+}
+
+.tratamiento-btn {
+    margin-top: auto; 
+}
+
+/*Galeria*/
+#galeriaid{
+    background: linear-gradient(135deg, #fff1f6, #fcdcf5, #e7d4ef);
+    color: #1e1c5d;
+    padding: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+#galeria{
+    display: flex;
+
+    width: 1349px;
+    height: 430px;
+    
+}
+
+#galeria img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    filter: brightness(80%);
+    transition: .3s ease;
+}
+
+#galeria img:hover{
+    cursor: crosshair;
+    width: 500px;
+    opacity: 1;
+    filter: brightness(100%);
+}
+
+
+/*ACERCA DE*/
+#sobreid{
+    background: linear-gradient(135deg, #fff1f6, #fcdcf5, #e7d4ef);
+    color: #1e1c5d;
+    padding: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#acercade {
+    display: flex; 
+    align-items: center; 
+}
+.imagen-texto1 {
+    width: 250px;
+    margin-right: 15px; /
+    
+}
+
+
+
+.imagen-texto2 {
+    width: 200px;
+    margin-right: 15px; 
+   
+    
+}
+
+.imagen-texto3{
+    width: 200px;
+    margin-right: 15px;
+}
+
+/*CONTACTO*/
+
+#conte1 {
+    text-align: center; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.imagen-texto4 {
+    width: 50px;
+}
+
+#formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    margin: 0 auto; 
+}
+
+
+#formu {
+
+    max-width: 500px; 
+    width: 100%; 
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
+
