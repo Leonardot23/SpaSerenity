@@ -103,43 +103,19 @@ body {
 
 /*Lo mas pedido*/
 .container1 {
-    
-    
     border: 1px solid #f78da7; 
     padding: 20px; 
     border-radius: 15px; 
     background-color: #ffffff; 
+}
+
+
+
+
+
+.btn {
     
-}
-tratamiento-card {
-    border: none; 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
-    border-radius: 20px; 
-    transition: transform 0.3s ease; 
-    align-items: center
-}
-
-.tratamiento-card:hover {
-    transform: scale(1.05); 
-}
-
-.tratamiento-card img {
     border-radius: 20px;
-    max-width: 200px; 
-}
-
-.tratamiento-card-body {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100%; 
-    align-items: center
-}
-
-.tratamiento-btn {
-    margin-top: auto; 
-    border-radius: 20px;
-    
 }
 
 /*Galeria*/
