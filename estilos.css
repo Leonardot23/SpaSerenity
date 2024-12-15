@@ -116,6 +116,7 @@ tratamiento-card {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
     border-radius: 20px; 
     transition: transform 0.3s ease; 
+    align-items: center
 }
 
 .tratamiento-card:hover {
@@ -132,6 +133,7 @@ tratamiento-card {
     flex-direction: column;
     justify-content: space-between;
     height: 100%; 
+    align-items: center
 }
 
 .tratamiento-btn {
