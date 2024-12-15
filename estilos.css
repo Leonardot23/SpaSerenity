@@ -132,12 +132,12 @@ tratamiento-card {
     flex-direction: column;
     justify-content: space-between;
     height: 100%; 
-    align-items: center
 }
 
 .tratamiento-btn {
     margin-top: auto; 
     border-radius: 20px;
+    align-items: center;
 }
 
 /*Galeria*/
